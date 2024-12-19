@@ -1,0 +1,268 @@
+*{
+margin:0;
+padding:0;
+}
+
+#redes_sociais{
+background-color:black;
+color:#fff;
+font-size:20pt;
+display:flex; 
+flex-direction:row;
+justify-content:space-around;
+border:solid 3px #fae105;
+margin:auto;
+padding:15px;
+font-family:arial;
+height:70px;
+line-height:90px;
+text-align:center;
+}
+
+nav ul li {
+display:inline;/*em linha*/	
+}	
+
+li a{
+background-color:Black;
+font-size:25pt;
+color:#fff;
+padding:30px;
+font-weight:bolder;
+text-decoration:none;
+border:solid 3px #fff
+}
+
+header{
+display:flex;/* transforma em caixa flexivel*/
+flex-direction:row;/* em linha */
+justify-content:center;/*centraliza verticalmente*/
+}
+
+
+nav{ 
+height:538px;
+line-height:538px;	
+}
+
+#logo img{
+margin-right:15px;
+}
+
+#slider{
+background-image:url("neymar.jpg");
+background-size:cover;
+height:720px;
+display:flex;
+flex-direction:column;
+justify-content:flex-end;
+}
+
+#frase{
+color:#fff;
+text-align:center;
+font-size:40px;
+background-color:rgb(0,0,0,0.5);
+}
+
+#redes_sociais svg{
+height: 70px;
+line-height: 70px;
+}
+
+#caixa2{
+width: 35%;
+height:450px;
+box-sizing:border-box;/*nao passa do tamanho*/
+}
+
+#info{
+display:flex;
+flex-direction:row;
+justify-content:space-around;
+padding-top:55px;
+padding-bottom:55px;
+}
+
+
+#caixa1 h1{
+text-align:center;
+justify-content:row;
+font-size:35px;
+text-transform:uppercase;
+}
+
+#caixa1 {
+text-align:center;
+font-family:calibri;
+background-color:rgb(0, 0, 0);
+color:rgb(255, 255, 255);
+padding:25px;
+width: 35%;
+height:450px;
+}			
+	
+
+#caixa1 p {
+font-size:30px;
+}
+
+#borda{
+    Border: 2px solid rgb(255, 255, 255);
+    padding-bottom:25px;
+    padding-top:25px;
+    }
+
+#caixa2 img{
+width:100%;
+height:465px;
+Border: 2px solid Black;
+}
+
+
+#cards{
+display:flex;
+flex-direction:row;
+justify-content:space-around;
+}
+
+#card1{
+background-color:black;
+padding:25px;
+width:20%;
+height:420px;
+text-align:center;
+border:5px solid #ebe30c;
+color:#fff;
+}
+
+#card1 h{
+font-size:25px;
+}
+
+#card1 img{
+height:90px;
+width:90px;
+}
+
+#card3 img{
+height:90px;
+width:90px;
+}
+
+#card2{
+background-color:#000000;
+color:#fff;
+padding:25px;
+width:20%;
+height:420px;
+border:5px solid #ebe30c;
+text-align:center;
+}
+
+#card3{
+background-color:#000000;
+color:#fff;
+padding:25px;
+text-align:center;
+width:20%;
+height:420px;
+border:5px solid #ebe30c;
+}
+
+.img_galeria{
+    width:300px;
+    height: 300px;
+    margin: 10px;
+    margin-top: 25px;
+    margin-left:25px ;
+    margin-right:25px ;
+    margin-bottom: 25px;
+    border: 2px solid rgb(255, 255, 255);
+    transition: 0.5s all ;
+}
+
+.img_galeria:hover{
+    width: 350px;
+    height: 350px;
+    margin: 0px;
+}
+
+
+#galery{
+    
+    background-color: rgb(0, 0, 0);
+    padding: 20px 200px 20px 200px;
+}
+
+#contact{
+    background-color: #fff;
+    padding: 50px 400px 50px 400px;
+}
+
+.titulo{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 35pt;
+   font-weight: lighter;
+   text-align: center;
+}
+
+.caixa{
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+    width: 400px;
+    background-color: #000000;
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.caixa-placeholder{
+    color: rgb(255, 255, 255);
+}
+
+.caixa_msg{
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+    width: 540px;
+    background-color: #000000;
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: center;
+    height: 110px;
+}
+
+.caixa_msg::placeholder{
+    color: rgb(255, 255, 255);
+}
+.caixa::placeholder{
+    color: rgb(255, 255, 255);
+}
+
+#c_campos{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding-top: 50px;
+}
+
+.botao{
+    width: 100%;
+    padding: 10px;
+    height:45px ;
+    background-color: #000000;
+    color: #fff;
+    margin-top: 10px;
+}
+
+footer{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 12pt;
+}
